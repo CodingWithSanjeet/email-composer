@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Mail - Beautiful Email Composer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-envelope"></i>
+                <h1>Email Composer</h1>
+            </div>
+            <p class="tagline">Send beautiful emails with ease</p>
+        </header>
+
+        <main class="main-content">
+            <div class="email-form-container">
+                <form id="emailForm" class="email-form">
+                    <div class="form-group">
+                        <label for="to">
+                            <i class="fas fa-user"></i>
+                            Recipient
+                        </label>
+                        <input type="email" id="to" name="to" placeholder="Enter recipient's email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">
+                            <i class="fas fa-tag"></i>
+                            Subject
+                        </label>
+                        <input type="text" id="subject" name="subject" placeholder="Enter email subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">
+                            <i class="fas fa-edit"></i>
+                            Message
+                        </label>
+                        <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Email
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="clearForm">
+                            <i class="fas fa-eraser"></i>
+                            Clear Form
+                        </button>
+                    </div>
+                </form>
+
+                <div id="notification" class="notification hidden">
+                    <div class="notification-content">
+                        <i class="notification-icon"></i>
+                        <span class="notification-message"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure</h3>
+                    <p>Your emails are sent securely using encrypted connections</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Fast</h3>
+                    <p>Lightning-fast email delivery powered by modern infrastructure</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-heart"></i>
+                    <h3>Reliable</h3>
+                    <p>Built with reliability in mind, ensuring your messages reach their destination</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Email Composer. Built with ❤️ using Node.js</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
