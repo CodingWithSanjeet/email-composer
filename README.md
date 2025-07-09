@@ -90,14 +90,6 @@
 
 ---
 
-## 📱 Screenshots
-
-### Desktop View
-The main interface features a beautiful gradient background with a clean, modern form design.
-
-### Mobile View
-Fully responsive design that works seamlessly on all screen sizes.
-
 ---
 
 ## 🔧 Configuration
@@ -238,12 +230,6 @@ The application includes built-in templates for:
 - HTTPS support ready
 - Rate limiting ready
 
-### 📱 **Mobile Optimization**
-- Touch-friendly interface
-- Responsive breakpoints
-- Optimized loading times
-- Swipe gestures support
-
 ---
 
 ## 🤝 Contributing
@@ -342,7 +328,7 @@ If you encounter any issues or have questions:
 
 ## 🎉 Demo
 
-Try the live demo: [Email Composer Demo](https://your-demo-url.com)
+Try the live demo: [Email Composer Demo](https://email-composer-f4in.onrender.com/)
 
 **Test Credentials:**
 - Use any valid email address
